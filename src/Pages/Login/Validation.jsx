@@ -16,7 +16,7 @@ const messages = {
     name: {
         username: {
             missing: 'User name cannot be empty',
-            invalid: 'Invalid User Name',
+            invalid: 'Invalid Mail Id',
         },
         password: {
             missing: 'Password cannot be empty',

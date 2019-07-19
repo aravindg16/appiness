@@ -50,7 +50,7 @@ class Login extends React.Component {
         return (
             <Form className="d-flex flex-column align-items-center p-5 login-form" rules={rules} messages={messages} action={this.login}>
                 <label className="font-weight-bolder text-uppercase">User Name</label>
-                <Input placeholder="Enter User Name" type="email" name="username" required={true} pattern="[A-Za-z]{3}" />
+                <Input placeholder="Enter mail id" type="email" name="username" required={true} pattern="[A-Za-z]{3}" />
                 <label className="font-weight-bolder text-uppercase">Password</label>
                 <Input placeholder="Enter Password" type="password" name="password" required={true} pattern="[A-Za-z]{3}" />
                 <Button className="my-4 submit-button" type="submit">LOGIN</Button>
